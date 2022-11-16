@@ -1,0 +1,85 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(../imagens/6076722.jpg) no-repeat top;
+    background-size: 1400px;
+}
+
+#container {
+    width: 400px;
+    height: 420px;
+    background-color: rgba(27, 25, 25, 0.425);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#container img {
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;        
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -5px;
+    font-weight: 900;
+    font-size: 28px;
+    color: #06143b;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -5px;
+    font-weight: 800;
+    font-size: 18px;
+    color: #030c27;
+}
+
+label {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 300px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+input {
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.email {
+    background-image: url(../imagens/icone-usuario.png);
+}
+
+input.senha {
+    background-image: url(../imagens/icone-cadeado.png);
+}
+
+input.submit {
+    color:rgb(193, 207, 255);
+    font-weight: bold;
+    background-color: #1a457c;
+    border: 2px solid #0c236e;
+    padding: 5px 20px;
+    height: 45px;
+    width: 50%;
+    border-radius: 4%;
+
+    background: linear-gradient(to bottom, #275ea7, #081950);    
+}
+
+input.submit:hover {
+    color: #e7e6e6;
+    background: linear-gradient(to bottom, #11319b, #040f33);
+}
